@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     text-decoration: none;
     padding-bottom: 50px;
+    margin: 0 auto;
 }
 .logo {
     display: flex;   
@@ -162,4 +163,104 @@ a:hover {
 .topic {
     border-bottom: 1px solid #BCBCBC;
     margin-bottom: 100px;
+}
+.fashion {
+    max-width: 1204px !important;
+    padding: 18px;
+    background-color: #FFFFFF;
+    border-radius: 20px !important;
+    height: 758px;
+    box-shadow: 0px 6px 6px 0px #0000000D !important;
+    backdrop-filter: blur(5%) !important;
+    margin-bottom: 70px;
+}
+.fash{
+    background-image: url("./assets/Mask\ groupp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.fash button {
+     width: 234px;
+      height: 36px;
+      background-color: #262626;
+      border-radius: 40px;
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 12px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     text-align: center;
+     font-family: poppins;
+     margin: 23px 47px;
+     color: #FFFFFF;
+}
+.coming {
+    max-width: 1000px !important;
+    margin: 0 auto;
+}
+.firstsection {
+    display: flex;
+    margin-bottom: 50px;
+}
+.name {
+    display: flex;
+    gap: 10px;
+}
+.date {
+    margin-left: 50px;
+}
+.hot {
+    margin-left: auto;
+}
+.nam {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #BCBCBC;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 20px;
+}
+.hot p {
+     font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    color: #F25E5E;
+    line-height: 100%;
+    letter-spacing: 24%;
+    padding-top: 20px;
+}
+.text1 h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 26px;
+    color: #262626;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+.text1 p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #262626;
+}
+.text1 a {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 24%;
+    color: #4CE0D7 !important;
+    margin-top: 50px;
 }
