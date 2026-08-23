@@ -166,7 +166,6 @@ a:hover {
 }
 .fashion {
     max-width: 1204px !important;
-    padding: 18px;
     background-color: #FFFFFF;
     border-radius: 20px !important;
     height: 758px;
@@ -244,6 +243,7 @@ a:hover {
     line-height: 100%;
     letter-spacing: 0%;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 .text1 p {
     font-family: Poppins;
@@ -263,4 +263,98 @@ a:hover {
     letter-spacing: 24%;
     color: #4CE0D7 !important;
     margin-top: 50px;
+}
+.trending {
+    max-width: 1204px;
+    margin: 0 auto;
+}
+.card2 {
+    width: 579px;
+    height: 690px;
+    background-color: #FFFFFF;
+     border-radius: 20px;
+    backdrop-filter: blur(5%) !important;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    margin-bottom: 88px;
+}
+ .fash1 {
+     background-image: url("./assets/Mask\ group\ \(2\).png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 278px;
+     border-radius: 20px;
+     margin-bottom: 23px;
+}
+.fash1 button, .summer button, .fash2 button, .fash3 button,
+ .fash4 button{
+     width: 175px;
+      height: 36px;
+      background-color: #262626;
+      border-radius: 40px;
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 12px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     text-align: center;
+     font-family: poppins;
+     margin: 23px 47px;
+     color: #FFFFFF;
+}
+.cardname {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px !important;
+}
+.cardtext {
+    padding: 10px 40px 84px 26px;
+}
+.cards2 {
+    display: flex;
+    gap: 60px;
+}
+.summer {
+    background-image: url("./assets/Mask\ group\ \(3\).png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 278px;
+     border-radius: 20px;
+     margin-bottom: 23px;
+}
+.card3 {
+    display: flex;
+    width: 1204px !important;
+    height: 368px !important;
+    gap: 46px;
+   box-shadow: 0px 6px 6px 0px #0000000D;
+    border-radius: 20px !important;
+    backdrop-filter: blur(5%) !important;
+    background-color: #FFFFFF;
+}
+.fash2 {
+     background-image: url("./assets/Mask\ group\ \(4\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 547px;
+}
+.cards3 {
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    margin-bottom: 69px;
+}
+.fash3 {
+    background-image: url("./assets/Mask\ group\ \(5\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 547px;
+}
+.fash4 {
+    background-image: url("./assets/Mask\ group\ \(6\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 547px;
 }
